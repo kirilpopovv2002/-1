@@ -9,6 +9,15 @@ namespace ConsoleApp1
         private string Name { get; set; }
         private float Caliber { get; set; }
         private double Range { get; set; }
+        public Gun()
+        {
+        }
+        public Gun(string _Name,float _Caliber, double _Range)
+        {
+            this.Name = _Name;
+            this.Caliber = _Caliber;
+            this.Range = _Range;
+        }
 
     }
 }
